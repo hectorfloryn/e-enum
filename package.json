@@ -1,0 +1,46 @@
+{
+  "name": "e-enum",
+  "version": "1.0.0",
+  "description": "ts enum object, 带typescript签名的多字段枚举关联对象映射",
+  "main": "index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && node build.mjs",
+    "test": "jest"
+  },
+  "keywords": [
+    "enum",
+    "enumeration",
+    "config",
+    "configuration",
+    "typescript",
+    "ts",
+    "object",
+    "mapping",
+    "枚举",
+    "对象",
+    "映射"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "guotao0566@foxmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/i7guokui/e-enum#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i7guokui/e-enum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/i7guokui/e-enum/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "esbuild": "^0.19.2",
+    "jest": "^29.6.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  }
+}
