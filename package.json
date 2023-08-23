@@ -1,6 +1,6 @@
 {
   "name": "e-enum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ts enum object, 带typescript签名的多字段枚举关联对象映射",
   "main": "index.js",
   "module": "dist/index.esm.js",
