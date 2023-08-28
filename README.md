@@ -102,8 +102,6 @@ gender[1].$in(['male', 'female']); // true
 
 8. 关于TS类型使用
 
-利用编辑器对 `jsdoc` 的支持，实现类型获取和快速跳转。
-
 ``` typescript
 // gender.ts
 import eEnum from 'e-enum';
@@ -118,12 +116,9 @@ import gender from 'gender.ts';
 import { GetEnumCodeType } from 'e-enum';
 
 interface Props {
-  /** @see {@link gender} */
-  sex: GetEnumCodeType<typeof gender>;
+  sex: GetEnumCodeType<typeof gender>; // 1 | 2
 }
 ```
-
-这样在使用 `sex` 属性时，可以通过编辑器对 `jsdoc` 的支持，实现注释内容点击跳转快速查看 `gender.ts` 的类型声明。
 
 [npm-version-image]: https://img.shields.io/npm/v/e-enum.svg
 [npm-downloads-image]: https://img.shields.io/npm/dm/e-enum.svg?style=flat
